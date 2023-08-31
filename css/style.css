@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(127, 244, 164);
+    width: 100vw;
+    height: 100px;
+}
+body{
+    background-color: rgb(175, 230, 255);
+}
+.cld1{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 120px;
+    left: 10vw;
+}
+.cld2{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 120px;
+    left: 60vw;
+}
+.cld3{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 60px;
+    left: 80vw;
+}
+.cld4{
+    position: absolute;
+        height: 100px;
+        width: 250px;
+        top: 100px;
+        left: 22vw;
+}
+.content .name{
+    margin: 20px;
+    padding: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    transition: all .5s ease-in;
+}
+.content h2{
+    margin: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    transition: all .5s ease-in;
+}
+.content h1:hover{
+    font-size: 60px;
+}
+.content h2:hover{
+    font-size: 50px;
+}
+.content .mountain{
+    width: 30vw;
+    height: 30vh;  
+    transition: all .5s ease-in;
+}
+.mountain:hover{
+    width: 60wv;
+    height: 35vh;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 70%;
+    border-color: rgb(77, 4, 167);
+    margin: 10px;
+    padding: 20px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    transition: all .20s ease-in;
+    text-decoration: underline;
+}
+.container h2:hover{
+    font-size: 50px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+.box h2{
+    margin: 5px;
+    padding: 5px;
+}
+.box p{
+    margin: 5px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all .5s ease-in-out;
+}
+.box img{
+    height: 10vw;
+    width: 10vw;
+    transition: all .4s ease-in ;
+    float: right;
+}
+.box img:hover{
+    width: 12vw;
+    height: 12vw;
+}
+
+p:hover{
+    font-size: large;
+}
+.box .cpro{
+    padding: 0px;
+    height: 8vw;
+    width: 15vw;
+}
+.box .cpro:hover{
+    height: 9vw;
+    width: 18vw;
+}
+.box .aimg5{
+    padding: 0px;
+    height: 8vw;
+    width: 10vw;
+}
+.box .aimg5:hover{
+    height: 10vw;
+    width: 12vw;
+}
+.bottom{
+    background-color: rgb(127, 244, 164);
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.linkimg{
+    width: 2vw;
+    padding: 10px;
+}
+.linkimg:hover{
+    width: 4vw;
+}
+.bottom a{
+    color: #000;
+}
